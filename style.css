@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navbar{
+    width: 12.75vw;
+    height: 200vh;
+    
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    border-right:1px solid #b1afafce;
+}
+
+#navbar img{
+    margin-left: 18px;
+    margin-bottom: 25px;
+}
+#navbar h3{
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+#navbar .ulnav{
+    list-style: none;
+    margin-bottom: 16px;
+    padding-left: 26px;
+}
+
+#navbar .ulnav a{
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 2px;
+    color:  #0645ad;
+}
+#div_right{
+    width: 86vw;
+    height: 200vh;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#div_right .nav_right ul{
+    list-style: none;
+    float: right;
+    
+}
+#div_right .nav_right ul li{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 13px;
+}
+#div_right .nav_right ul li a{
+    text-decoration: none;
+}
+#div_right .nav_right ul li a:hover{
+    text-decoration: underline;
+}
+.navbottom{
+    font-size: 12px;
+    
+    height: 37px;
+}
+.navbottom .left{
+    width: 150px;
+}
+
+.navbottom .left ul{
+    list-style: none;
+
+}
+.navbottom .left ul li{
+    display: inline-block;
+    margin-right: 5px;
+    padding-top: 5px;
+    font-size: 13px;
+
+}
+.navbottom .right{
+    float: right;
+    margin-top: -28px;
+}
+.navbottom .right ul{
+    list-style: none;
+    
+}
+.navbottom .right ul li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.asideleft{
+    width: 720px;
+}
+.sidecontent{
+    border: 1px solid blueviolet;
+    width: 300px;
+    height: 650px;
+    margin-right: 8px;
+    margin-top: 121px;
+    text-align: center;
+    float: right;
+}
+
+.sidecontent img{
+    width: 250px;
+    height: 200px;  
+}
+.asideright{
+    width: 217px;
+    height: 530px;
+    margin-left: 16px;
+    border: 1px solid #9e9e9e;
+}
+.asideright h3{
+    text-align: center;
+}
+
+#footer .footer{
+    width: 100vw;
+    height: 30px;
+    text-align: center;
+    background-image: linear-gradient(to right,rgba(17, 59, 104, 0.466) 0,#c8ccd1 33%,#c8ccd1 66%,rgba(60, 95, 129, 0.589) 100%);
+    background-repeat: no-repeat;
+
+}
+#footer .footer h3{
+    font-size: 20px;
+
+}
+.footer_2{
+    display: inline-block;
+    border: 1px solid grey;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.footer_2 ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+.footer_2 ul li a{
+    text-decoration: none;
+
+}
+.groundfloor .ulfirst{
+    list-style: none;
+    
+}
+.groundfloor .ultags{
+    list-style: none;
+}
+.groundfloor .ultags li{
+    display: inline-block;
+}
+.groundfloor .ultags li a{
+    text-decoration: none;
+    margin-right: 5px;
+}
+.groundfloor .ultags li a:hover{
+    text-decoration: underline;
+
+}
+
+
